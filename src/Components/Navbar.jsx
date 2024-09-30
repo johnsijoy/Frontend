@@ -7,7 +7,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
         <div className="container-fluid">
           <Link to={"/"} className="navbar-brand" >
-           E-Comm
+           AMMU LAKSHIMI ENTERPRISES
           </Link>
           <button
             className="navbar-toggler"

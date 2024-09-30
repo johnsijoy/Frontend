@@ -2,10 +2,10 @@
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  margin-right: 150px;
+  margin-right: px;
 }
 a{
-  color: aqua !important;
+  color: white !important;
   font-size: x-large !important;
   font-weight: bolder !important;
 }
@@ -13,24 +13,32 @@ footer{
   position: fixed;
   bottom: 0;
   width: 100%;
+  
+  
+  
 }
 .card {
-  border: 3px solid black;
+  border: 2px solid black;
+  
+ 
 }
 .card-header{
-  background-color: black !important;
-  color: aqua !important;
+  background-color: rgb(255, 185, 250) !important;
+  color: rgb(0, 8, 255) !important;
  
 }
 .card-footer{
-  background-color: black !important;
+  background-color: rgb(255, 185, 250) !important;
+  
  
 }
 img{
-  margin: 20px 20px !important;
-  width: 300px !important;
-  height: 300px !important;
+  margin: 30px 70px !important;
+  width: 250px !important;
+  height: 250px !important;
+ 
 }
 button{
-  border-radius: 25px !important;
+  border-radius: 5px !important;
+  
 }

@@ -13,6 +13,7 @@ const Home = () => {
       .catch((err) => console.log(err));
   };
 
+
   return (
     <div>
       <div class="row row-cols-1 row-cols-md-3">
@@ -25,6 +26,7 @@ const Home = () => {
                   <img src={item.productImage} class="card-img-top" alt="..." />
                   <div class="card-body">
                     <h5 class="card-title">{item.productName}</h5>
+                    
                     <h5 class="card-title">{item.productPrice}</h5>
                   </div>
                 </div>
