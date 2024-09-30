@@ -1,3 +1,36 @@
-nav a{
-  margin-right: 16px;
+.navbar-collapse{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-right: 150px;
+}
+a{
+  color: aqua !important;
+  font-size: x-large !important;
+  font-weight: bolder !important;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.card {
+  border: 3px solid black;
+}
+.card-header{
+  background-color: black !important;
+  color: aqua !important;
+ 
+}
+.card-footer{
+  background-color: black !important;
+ 
+}
+img{
+  margin: 20px 20px !important;
+  width: 300px !important;
+  height: 300px !important;
+}
+button{
+  border-radius: 25px !important;
 }
